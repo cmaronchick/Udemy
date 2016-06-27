@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tictactoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="ETA-IB-Bcu">
+                                <rect key="frame" x="50" y="37" width="500" height="526"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="tGW-Cc-C4R"/>
+                                    <constraint firstAttribute="height" constant="526" id="uSa-MG-dnW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vua-eO-QX8">
+                                <rect key="frame" x="50" y="44" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Bk7-oE-SFr"/>
+                                    <constraint firstAttribute="height" constant="150" id="rcz-Pr-W97"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgo-8d-COt" userLabel="Top Center Button">
+                                <rect key="frame" x="228" y="44" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="TPf-ng-eQ1"/>
+                                    <constraint firstAttribute="height" constant="150" id="daC-2t-xyD"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmY-vE-lvF">
+                                <rect key="frame" x="396" y="44" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="oOA-e4-Ygr"/>
+                                    <constraint firstAttribute="height" constant="150" id="uJK-a7-dzB"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3x-ZB-jTl">
+                                <rect key="frame" x="228" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="ElV-34-Dr7"/>
+                                    <constraint firstAttribute="height" constant="150" id="c3J-CN-VS0"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxe-QM-RXg">
+                                <rect key="frame" x="50" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="jPh-Wb-axZ"/>
+                                    <constraint firstAttribute="height" constant="150" id="orJ-Ua-aIu"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBZ-8g-sn1">
+                                <rect key="frame" x="50" y="407" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Rek-vg-dGb"/>
+                                    <constraint firstAttribute="height" constant="150" id="lX9-6G-tdp"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRC-ju-2Fe">
+                                <rect key="frame" x="228" y="407" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="U0o-SO-qSW"/>
+                                    <constraint firstAttribute="height" constant="150" id="js0-U8-yDY"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KoB-VM-2Tl">
+                                <rect key="frame" x="400" y="407" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="CNr-f7-MwM"/>
+                                    <constraint firstAttribute="width" constant="150" id="gBF-Ys-DtV"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qR6-kF-Dmr">
+                                <rect key="frame" x="400" y="225" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="lqq-Ze-bb6"/>
+                                    <constraint firstAttribute="height" constant="150" id="yHM-pf-VTY"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="centerBottomButton" destination="MRC-ju-2Fe" id="NJr-M6-ABk"/>
+                        <outlet property="centerMiddleButton" destination="Z3x-ZB-jTl" id="tAF-Da-ocT"/>
+                        <outlet property="leftBottomButton" destination="KBZ-8g-sn1" id="B7s-2I-itd"/>
+                        <outlet property="leftCenterButton" destination="Rxe-QM-RXg" id="llH-df-jqy"/>
+                        <outlet property="rightBottomButton" destination="KoB-VM-2Tl" id="Kyp-lr-Iwx"/>
+                        <outlet property="rightMiddleButton" destination="qR6-kF-Dmr" id="77v-iN-DY3"/>
+                        <outlet property="topCenterButton" destination="Mgo-8d-COt" id="bJQ-p8-Gnn"/>
+                        <outlet property="topLeftButton" destination="Vua-eO-QX8" id="yWf-fs-0R9"/>
+                        <outlet property="topRightButton" destination="KmY-vE-lvF" id="L6m-io-9uc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="353"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="board.png" width="744" height="783"/>
+    </resources>
+</document>
